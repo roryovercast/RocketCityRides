@@ -130,3 +130,8 @@ blockquote span a,
 {
     border-color: #ff2929;
 }
+
+.hover-list
+{
+    background-color: #ff2929
+}
