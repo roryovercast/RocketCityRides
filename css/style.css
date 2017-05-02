@@ -5006,3 +5006,6 @@ footer.light-footer .bottom-line a {
     border-radius: 50%;
 }
 
+.choose-language{
+    display: none;
+}
