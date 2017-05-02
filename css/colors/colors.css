@@ -46,7 +46,7 @@
 .c-input-number > span input.userincr-btn-inc,
 .single-product-infos a.flat-btn.add_to_cart
 {
-    background-color: #ff2929;
+    background-color: #92aedd;
 }
 
 
@@ -116,7 +116,7 @@ blockquote span a,
 .thanks-message > span i,
 .prdct-mockup-info > span,
 .features > li > i {
-    color: #ff2929;
+    color: #92aedd;
 }
 
 /** Background Color **/
@@ -128,10 +128,10 @@ blockquote span a,
 .price-table:hover,
 .features > li > i
 {
-    border-color: #ff2929;
+    border-color: #92aedd;
 }
 
 .hover-list
 {
-    background-color: #ff2929
+    background-color: #92aedd;
 }
