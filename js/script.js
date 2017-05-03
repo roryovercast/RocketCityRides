@@ -27,10 +27,17 @@ jQuery(document).ready(function(){
 	    e.stopPropagation();
 	});
 	$(".menu-item-has-children > a").on("click",function(){
-	    $(this).parent().siblings().children("ul").slideUp();
-	    $(this).parent().siblings().removeClass("active");
-	    $(this).parent().children("ul").slideToggle();
-	    $(this).parent().toggleClass("active");
+		if (screen.width < 1201){
+			$(this).parent().siblings().children("ul").slideUp();
+			$(this).parent().siblings().removeClass("active");
+			$(this).parent().children("ul").slideToggle();
+			$(this).parent().toggleClass("active");
+		}
+		else
+		{
+			var top = document.getElementById(portfolioA).offsetTop;
+    		window.scrollTo(0, top);
+		}
 	    return false;
 	});
 
