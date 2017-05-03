@@ -109,7 +109,7 @@ section{
 .block{
     float:left;
     width:100%;
-    padding:120px 0;
+    padding:30px 0;
     position:relative;
 }
 .block .container{
@@ -1602,7 +1602,7 @@ blockquote p {
 }
 .team-info {
     background: #ffffff none repeat scroll 0 0;
-    bottom: -162px;
+    bottom: 0px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -2069,12 +2069,17 @@ blockquote p {
 .portfolio-box:hover .portfolio-detail > a {
     bottom: 0;
 }
-.portfolio-sec > .row > div .row {
+.port-sec > .row > div .row {
     margin-top: -30px;
 }
-.portfolio-sec > .row > div .row > div {
+.port-sec > .row > div .row > div {
     margin-top: 30px;
 }
+
+.port-sec > .row > div{
+    margin-top: 30px;
+}
+
 .portfolio-box:hover .portfolio-info > h3 {
     margin-top: 9px;
     
