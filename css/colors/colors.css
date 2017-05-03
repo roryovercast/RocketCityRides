@@ -115,7 +115,9 @@ blockquote span a,
 .single-product-infos .rating  span,
 .thanks-message > span i,
 .prdct-mockup-info > span,
-.features > li > i {
+.features > li > i,
+.social-top
+ {
     color: #92aedd;
 }
 
